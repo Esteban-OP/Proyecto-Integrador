@@ -15,27 +15,9 @@ En esta fase se realiza:
     - **.env:\*** Protege las variables sensibles (contraseñas, puertos locales). Al usar **.env\*** en el `.gitingore`, le decimos a Git que ignore cualquier archivo que empiece con `.env` (como `.env.development` o `.env.production`).
 4. Variables de entorno (.env)
     En la carpeta `backend` creamos 3 archivos.
-    - **.env.development:**
-        - PORT=3000
-        - DB_HOST=localhost
-        - DB_PORT=5432
-        - DB_USER=postgres
-        - DB_PASSWORD=pswDB123
-        - DB_NAME=inventario_dev
-    - **.env.production:**
-        - PORT=3000
-        - DB_HOST=localhost
-        - DB_PORT=5432
-        - DB_USER=postgres
-        - DB_PASSWORD=pswDB123
-        - DB_NAME=inventario_prod
-    - **example.env:**
-        - PORT=3000
-        - DB_HOST=localhost
-        - DB_PORT=5432
-        - DB_USER=
-        - DB_PASSWORD=
-        - DB_NAME=
+    - .env.development:
+    - .env.production:
+    - example.env:
     
     ¿Por qué estos archivos y este puerto? 
     
