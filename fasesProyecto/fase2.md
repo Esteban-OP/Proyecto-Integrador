@@ -1,4 +1,4 @@
-# Conectar DBeaveral servidor PostgreSQL
+# Conectar DBeaver al servidor PostgreSQL
 
 - Abrir DBeaver y hacer clic en el ícono de **Nueva Conexión** (suele ser un enchufe en la esquina superior izquierda).
 
